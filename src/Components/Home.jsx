@@ -5,22 +5,9 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../Assests/me.png";
 
 const Home = ({ ratio }) => {
-  const clientCount = useRef(null);
-  const projectCount = useRef(null);
 
-  const animationsClientsCount = () => {
-    animate(0, 100, {
-      duration: 1,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
 
-  const animationsProjectCount = () => {
-    animate(0, 20, {
-      duration: 1,
-      onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-    });
-  };
+
 
   const animations = {
     h1: {
@@ -33,8 +20,9 @@ const Home = ({ ratio }) => {
     },
   };
 
-  return (
+  return <>    
     <div id="home">
+      
       <section>
         <div>
           <motion.h1 {...animations.h1}>
@@ -53,54 +41,17 @@ const Home = ({ ratio }) => {
 
           <div>
             <a href="mailto:akashnaruka01@gmail.com">Hire Me</a>
-            <a href="#work">
+            <a href="#about">
               Projects <BsArrowUpRight />
             </a>
-          </div>
-
-          <article>
-            <p>
-              +
-              {ratio < 2 && (
-                <motion.span
-                  whileInView={animationsClientsCount}
-                  ref={clientCount}
-                >
-                  100
-                </motion.span>
-              )}
-            </p>
-            <span>Clients Worldwide</span>
-          </article>
-
-          <aside>
-            <article>
-              <p>
-                +
-                {ratio < 2 && (
-                  <motion.span
-                    whileInView={animationsProjectCount}
-                    ref={projectCount}
-                  >
-                    20
-                  </motion.span>
-                )}
-              </p>
-              <span>Projects Done</span>
-            </article>
-            <article data-special>
-              <p>Contact</p>
-              <span>akashnaruka01@gmail.com</span>
-            </article>
-          </aside>
+          </div>       
         </div>
       </section>
-      <section>
+      <section >
         <img src={me} alt="akash" />
       </section>
-      <BsChevronDown />
     </div>
-  );
+  </>
 };
 
 export default Home;

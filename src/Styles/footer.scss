@@ -2,8 +2,7 @@ footer{
     min-height: 100px;
     background-color: $color6;
     color: $color4;
-    padding: 6rem 0;
-    padding-left: $p;
+    padding: 4rem 0;
     display: grid;
     grid-template-columns: 10fr 3fr 1fr;
     align-items: center;
@@ -11,9 +10,8 @@ footer{
     text-align: center;
     >div{
         width: 100%;
-        border-left: 2px solid $color4;
         border-right: 2px solid $color4;
-
+        align-self: flex-start;
         >img{
             width: 100px;
             height: 100px;
