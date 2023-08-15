@@ -11,7 +11,6 @@ import Html from '../Assests/html.png';
 import react from '../Assests/react.png';
 import Git from '../Assests/git.svg';
 import Css from '../Assests/css.png';
-import vscode from '../Assests/vscode.png';
 // import  from '../Assests/js.png';
 import Js from '../Assests/js.png';
 
@@ -33,80 +32,82 @@ const Skills = () => {
   // };
 
   const boxProperty = {
-    color: 'black',
-    w: '11%',
+    w: '14%',
     display: 'flex',
-    color: 'white',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     marginX: '2rem',
     marginY: '1rem',
+    borderRadius: '10%',
+    border: '1px solid black',
+    boxShadow: '2px 2px grey, -2px -2px grey',
+    bgColor: '#b9daf8',
+    color: 'black',
     css:{
       '&:hover':{
         transform: 'scale(1.1)',
       }
-    }
+    },
+    className: 'skillsBox'
   }
 
   return (
 
 
     <div id="skills">
-      <h1>SKills</h1>
+      <h1>What I do</h1>
       <Box
+        className="sBox"
         p="4rem"
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
         flexWrap={"wrap"}   
-        lineHeight={3}     
+        lineHeight={'3'}     
       >
         
         <Box {...boxProperty}>
-          <Image src={C} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
-          <h2>C language</h2>
+          <Image src={C} w={'50%'}  boxSizing='content-box' objectFit={'contain'}/>
+          <h2>C </h2>
         </Box>
         
         <Box {...boxProperty} >
-          <Image src={Cpp} w={'80%'} boxSizing='content-box' objectFit={'contain'}/>
-          <h2>C language</h2>
+          <Image src={Cpp} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
+          <h2>C++</h2>
         </Box>
         
         <Box {...boxProperty}>
-          <Image src={Html} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
+          <Image src={Html} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
           <h2>HTML</h2>
         </Box>
         
         <Box {...boxProperty}>
-          <Image src={Css} w={'80%'} boxSizing='content-box' objectFit={'contain'}/>
+          <Image src={Css} w={'50%'} h={'40%'} boxSizing='content-box' objectFit={'contain'}/>
           <h2>Css</h2>
         </Box>
         
         <Box {...boxProperty}>
-          <Image src={js} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
+          <Image src={js} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
           <h2>JS</h2>
         </Box>
         
         <Box {...boxProperty}>
-          <Image src={react} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
+          <Image src={react} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
           <h2>Chakra Ui</h2>
         </Box>
         
         <Box {...boxProperty}>
-          <Image src={Chakra} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
-          <h2>C language</h2>
+          <Image src={Chakra} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
+          <h2>Chakra</h2>
         </Box>
         
         <Box {...boxProperty} >
-          <Image src={Git} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
+          <Image src={Git} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
           <h2>Git</h2>
         </Box>
         
-        <Box {...boxProperty}>
-          <Image src={vscode} w={'100%'} boxSizing='content-box' objectFit={'contain'}/>
-          <h2>Vs Code</h2>
-        </Box>        
+        
       </Box>
 
       {/* <section>

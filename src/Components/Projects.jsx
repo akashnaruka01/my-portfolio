@@ -49,6 +49,7 @@ const imgPropety ={
     <Box id="projects" h={"150vh"} >
       <h1>Projects</h1>
       <Box
+        className="pBox"
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
@@ -56,7 +57,7 @@ const imgPropety ={
         p={"4rem"}
         h={"120vh"}
       >
-        <Box {...boxProperty}>
+        <Box {...boxProperty} className="projectBox">
           <Image
             src={img1}
             {...imgPropety}
@@ -83,14 +84,14 @@ const imgPropety ={
           </Box>
         </Box>
       
-        <Box {...boxProperty}>
+        <Box {...boxProperty} className="projectBox">
           <Image
             src={img2}
             {...imgPropety}
           />
           <Heading padding={10}>My Portfolio</Heading>
           <Text padding={10}>
-           A simple web page describing about myself in a very good way,also facilitating users to attract with me through message section in my website.
+           A simple web page using reactJs describing about myself in a very good way.
           </Text>
           <Box
             p={15}
@@ -109,7 +110,7 @@ const imgPropety ={
           </Box>
         </Box>
       
-        <Box {...boxProperty}>
+        <Box {...boxProperty} className="projectBox">
           <Image
             src={img3}
             {...imgPropety}
@@ -135,7 +136,7 @@ const imgPropety ={
           </Box>
         </Box>
       
-        <Box {...boxProperty}>
+        <Box {...boxProperty} className="projectBox">
           <Image
             src={img1}
             {...imgPropety}
@@ -162,7 +163,7 @@ const imgPropety ={
           </Box>
         </Box>
       
-        <Box {...boxProperty}>
+        <Box {...boxProperty} className="projectBox">
           <Image
             src={img1}
             {...imgPropety}

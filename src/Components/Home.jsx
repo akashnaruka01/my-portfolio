@@ -5,10 +5,7 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../Assests/me.png";
 
 const Home = ({ ratio }) => {
-
-
-
-
+  
   const animations = {
     h1: {
       initial: { x: "-100%", opacity: 0 },

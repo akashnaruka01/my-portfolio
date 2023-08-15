@@ -61,6 +61,26 @@
 }
 
 @media screen and (max-width: 1100px) {
+
+  #skills{
+    
+    height: 120vh;
+  }
+ .skillsBox{
+    width: 25% !important;
+ }
+
+  #home{
+    height: 90vh !important;
+  }
+
+  #projects{
+    height: 200vh;
+  }
+  .projectBox{
+    width: 40% !important;
+    height: fit-content;
+  }
   nav {
     padding: 0 $p_base;
   }
@@ -102,7 +122,7 @@
     }
   }
   #home {
-    height: 100vh;
+    height: 90vh !important;
     > section {
       &:first-of-type {
         padding-left: $p_sm;
@@ -116,7 +136,27 @@
           }
         }
       }
+      &:last-of-type{
+        justify-content: cent600
+      }
     }
+  }
+  .pBox{
+    padding: 4rem 0rem !important;
+  }
+  .projectBox{
+    width: 40% !important;
+  }
+
+  #skills{
+    height: 150vh;
+  }
+  
+  .sBox{
+    padding: 4rem 0rem !important;
+  }
+  .skillsBox{
+    width: 35% !important;
   }
   #work {
     padding: 8rem $p_zero;
@@ -185,11 +225,14 @@
   .navBtn{
     display: block;
   }
+  .upperFooter{
+    justify-self: end;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #home {
-    height: unset;
+    height: 120vh !important;
     flex-direction: column-reverse;
 
     > section {
@@ -235,6 +278,7 @@
       }
 
       &:last-of-type {
+      justify-content: start !important;
         border: none;
       }
     }
@@ -243,6 +287,19 @@
       bottom: 12%;
     }
   }
+
+  #about{
+    height: unset;
+  }
+
+  #projects{
+    height: 320vh;
+  }
+
+  .projectBox{
+    width: 60% !important;
+  }
+  
   #work {
     > section {
       > article {
@@ -311,5 +368,33 @@
     >aside{
       display: none;
     }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .projectBox{
+    width: 80% !important;
+  }
+  #skills{
+    padding: 4rem 0 ;
+  }
+  .sBox{
+    padding: 4rem 0 !important;
+  }
+  .skillsBox{
+    width: 33% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #skills{
+    height: 240vh !important;
+    padding: 4rem 0 ;
+  }
+  .sBox{
+    padding: 4rem 0 !important;
+  }
+  .skillsBox{
+    width: 60% !important;
   }
 }
