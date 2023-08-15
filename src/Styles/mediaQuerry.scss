@@ -127,7 +127,8 @@
       &:first-of-type {
         padding-left: $p_sm;
         > div {
-          .div {
+          >div {
+            
             gap: 2rem;
             width: 100%;
           }
@@ -137,7 +138,7 @@
         }
       }
       &:last-of-type{
-        justify-content: cent600
+        justify-content: center;
       }
     }
   }

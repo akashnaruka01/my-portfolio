@@ -3,6 +3,8 @@ import { Box, Heading, Image, Text, css } from "@chakra-ui/react";
 import img1 from "../Assests/usability-hub.png";
 import img2 from "../Assests/Portfolio.png";
 import img3 from "../Assests/vedio-player.png";
+import img4 from "../Assests/cart.png";
+import img5 from "../Assests/rookie.png";
 import { AiFillGithub } from "react-icons/ai";
 import { SiNetlify } from "react-icons/si";
 
@@ -73,11 +75,11 @@ const imgPropety ={
             justifyContent={"space-evenly"}
             alignItems={"center"}
           >
-            <a className="anchor" href="">
+            <a className="anchor" href="https://github.com/akashnaruka01/Usabitlity-Hub">
               <AiFillGithub fontSize={"1.5rem"} color="black" />
               Source Code
             </a>
-            <a className="anchor" href="">
+            <a className="anchor" href="https://akashnaruka01.github.io/Usabitlity-Hub/">
               <SiNetlify fontSize={"1.5rem"} />
               Go to site
             </a>
@@ -115,7 +117,7 @@ const imgPropety ={
             src={img3}
             {...imgPropety}
           />
-          <Heading padding={10}>Vedio Player</Heading>
+          <Heading padding={10}>Flick Player</Heading>
           <Text padding={10}>
             A platform to play vedios and upload vedios, it has 10 vedio uploaded which can be played.
           </Text>
@@ -125,11 +127,11 @@ const imgPropety ={
             justifyContent={"space-evenly"}
             alignItems={"center"}
           >
-            <a className="anchor" href="">
+            <a className="anchor" href="https://github.com/akashnaruka01/Vedio-Player">
               <AiFillGithub fontSize={"1.5rem"} color="black" />
               Source Code
             </a>
-            <a className="anchor" href="">
+            <a className="anchor" href="https://vedioplayer-akashnaruka01.netlify.app/">
               <SiNetlify fontSize={"1.5rem"} />
               Go to site
             </a>
@@ -138,10 +140,10 @@ const imgPropety ={
       
         <Box {...boxProperty} className="projectBox">
           <Image
-            src={img1}
+            src={img4}
             {...imgPropety}
           />
-          <Heading padding={10}>Usability Hub</Heading>
+          <Heading padding={10}>Shopping Cart</Heading>
           <Text padding={10}>
             It is a clone of platform that takes the guesswork out of design
             decisions by validating them with real users.
@@ -152,11 +154,11 @@ const imgPropety ={
             justifyContent={"space-evenly"}
             alignItems={"center"}
           >
-            <a className="anchor" href="">
+            <a className="anchor" href="https://github.com/akashnaruka01/redux-cart">
               <AiFillGithub fontSize={"1.5rem"} color="black" />
               Source Code
             </a>
-            <a className="anchor" href="">
+            <a className="anchor" href="https://reduxcart-akashnaruka01.netlify.app/">
               <SiNetlify fontSize={"1.5rem"} />
               Go to site
             </a>
@@ -165,10 +167,10 @@ const imgPropety ={
       
         <Box {...boxProperty} className="projectBox">
           <Image
-            src={img1}
+            src={img5}
             {...imgPropety}
           />
-          <Heading padding={10}>Usability Hub</Heading>
+          <Heading padding={10}>Rookie Crypto</Heading>
           <Text padding={10}>
             It is a clone of platform that takes the guesswork out of design
             decisions by validating them with real users.
@@ -179,11 +181,11 @@ const imgPropety ={
             justifyContent={"space-evenly"}
             alignItems={"center"}
           >
-            <a className="anchor" href="">
+            <a className="anchor" href="https://github.com/akashnaruka01/CryptoApp">
               <AiFillGithub fontSize={"1.5rem"} color="black" />
               Source Code
             </a>
-            <a className="anchor" href="">
+            <a className="anchor" href="https://rookiecrypto.netlify.app/">
               <SiNetlify fontSize={"1.5rem"} />
               Go to site
             </a>
