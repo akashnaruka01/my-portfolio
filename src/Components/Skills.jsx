@@ -41,12 +41,12 @@ const Skills = () => {
     marginY: '1rem',
     borderRadius: '10%',
     border: '1px solid black',
-    boxShadow: '2px 2px grey, -2px -2px grey',
+    boxShadow: '1px 1px grey, -1px -1px grey',
     bgColor: '#b9daf8',
     color: 'black',
     css:{
       '&:hover':{
-        transform: 'scale(1.1)',
+        transform: 'scale(1.02)',
       }
     },
     className: 'skillsBox'
