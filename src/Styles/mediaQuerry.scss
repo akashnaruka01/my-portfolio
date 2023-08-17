@@ -75,11 +75,11 @@
   }
 
   #projects{
-    height: 200vh;
+    height: 230vh;
   }
   .projectBox{
     width: 40% !important;
-    height: fit-content;
+    height: unset !important;
   }
   nav {
     padding: 0 $p_base;
@@ -141,6 +141,9 @@
         justify-content: center;
       }
     }
+  }
+  #about{
+    height: unset !important;
   }
   .pBox{
     padding: 4rem 0rem !important;
@@ -229,6 +232,9 @@
   .upperFooter{
     justify-self: end;
   }
+  #projects{
+    height: 235vh !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -294,7 +300,7 @@
   }
 
   #projects{
-    height: 320vh;
+    height: 360vh !important;
   }
 
   .projectBox{
@@ -370,9 +376,16 @@
       display: none;
     }
   }
+
+  footer>aside>article>a>svg{
+    font-size: 35px !important;
+  }
 }
 
 @media screen and (max-width: 430px) {
+  #projects>div>div>div>a>svg{
+    display: none ;
+  }
   .projectBox{
     width: 80% !important;
   }
@@ -389,7 +402,7 @@
 
 @media screen and (max-width: 400px) {
   #skills{
-    height: 240vh !important;
+    height: unset !important;
     padding: 4rem 0 ;
   }
   .sBox{

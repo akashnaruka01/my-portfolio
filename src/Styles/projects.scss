@@ -16,6 +16,12 @@
     a{
         text-decoration: none;
     }
+
+    .projectBox{
+        >p{
+            font-family: $text3;
+        }
+    }
     
     >h1{
         font: 700 2.5rem $text2;

@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../Assests/me.png";
 
-const Home = ({ ratio }) => {
+const Home = () => {
   
   const animations = {
     h1: {

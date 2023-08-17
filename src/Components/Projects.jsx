@@ -12,7 +12,7 @@ const Projects = () => {
   const boxProperty = {
     w: "25%",
     padding: "4",
-    bgColor: "#d8e9f9",
+    bgColor: "#dfecf4",
     margin: "2rem",
     textAlign: "center",
     border: "2px solid black",
@@ -22,7 +22,7 @@ const Projects = () => {
     css: {
       "&:hover": {
         transform: "scale(1.02)",
-        boxShadow: "2px 2px black, -2px -2px black",
+        boxShadow: "1px 1px black, -1px -1px black",
       },
     },
   };
@@ -36,19 +36,7 @@ const Projects = () => {
   };
 
   return (
-    // <div id="proje">
-    //   <div className="timelineBox">
-    //     {data.projects.map((item, index) => (
-    //       <TimelineItem
-    //         heading={item.title}
-    //         text={item.date}
-    //         index={index}
-    //         key={index}
-    //       />
-    //     ))}
-    //   </div>
-    // </div>
-    <Box id="projects" h={"150vh"}>
+    <Box id="projects" h={"150vh"} >
       <h1>Projects</h1>
       <Box
         className="pBox"
@@ -93,7 +81,7 @@ const Projects = () => {
         <Box {...boxProperty} className="projectBox">
           <Image src={img2} {...imgPropety} />
           <Heading padding={10}>My Portfolio</Heading>
-          <Text padding={10}>
+          <Text padding={10} >
             A captivating React-powered portfolio, elegantly showcasing my
             creative journey and skills through immersive design.
           </Text>

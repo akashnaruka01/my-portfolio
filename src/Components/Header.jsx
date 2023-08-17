@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import {RxCross2} from "react-icons/rx";
 
 const Header = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -8,7 +9,8 @@ const Header = ({ menuOpen, setMenuOpen }) => {
         <NavContent setMenuOpen={setMenuOpen}/>
       </nav>
       <button className="navBtn" onClick={() => setMenuOpen(!menuOpen)}>
-        <AiOutlineMenu />
+        <AiOutlineMenu className={`${menuOpen? 'Close': 'Open'}`}/>
+        <RxCross2 className={`${!menuOpen? 'Close': 'Open'}`}/>
       </button>
     </>
   );
