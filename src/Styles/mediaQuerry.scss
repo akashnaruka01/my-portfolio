@@ -383,6 +383,9 @@
 }
 
 @media screen and (max-width: 430px) {
+  #projects{
+    height: 330vh !important;
+  }
   #projects>div>div>div>a>svg{
     display: none ;
   }
