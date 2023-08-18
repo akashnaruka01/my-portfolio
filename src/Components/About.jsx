@@ -6,34 +6,7 @@ import data from "../Assests/data.json";
 const About = () => {
   return (
     <div id="about">
-      <h2>About Me</h2>
-      {/* <section>
-        <article>
-          <Carousel
-            showArrows={false}
-            showThumbs={false}
-            showIndicators={false}
-            showStatus={false}
-            interval={2000}
-            infiniteLoop={true}
-            autoPlay={true}
-          >
-            {data.projects.map((i) => (
-              <div key={i.title} className="workItem">
-                <img src={i.imgSrc} alt={i.title} />
-                <aside>
-                  <h3>{i.title}</h3>
-                  <p>{i.description}</p>
-                  <a href={i.url} target="blank">
-                    View Demo
-                  </a>
-                </aside>
-              </div>
-            ))}
-          </Carousel>
-        </article>
-      </section> */}
-      
+      <h2>About Me</h2>      
         <section>
           Hello, I'm Akash Singh Naruka from Alwar, Rajasthan currently pursuing
           my Bachelor Of Technology in Computer Science and Engineering from Rustamji Institute Of Technology,

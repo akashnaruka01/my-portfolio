@@ -30,6 +30,7 @@ const Footer = () => {
             <AiFillLinkedin />
           </a>
         </article>
+        <p>© 2023 akash portfolio , Inc. All rights reserved.</p>
       </aside>
       <a href="#header" className="upperFooter">
         <AiOutlineUp />
@@ -39,3 +40,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

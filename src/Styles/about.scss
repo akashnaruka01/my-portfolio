@@ -1,8 +1,9 @@
 #about{
     background-color: #d6ebfd;
     width: 100%;
-    height: 75vh;
+    flex-wrap: "wrap";
     padding: 4rem 0rem;
+    min-height: 70vh;
     
     >h2{
         font: 700 2.5rem $text2;
@@ -15,7 +16,7 @@
 
     >section{
         font: 500 1rem $text3;
-        margin-top: 4rem !important;
+        margin-top: 2.3rem !important;
         width: 80%;
         margin: auto;
         line-height: 170%;

@@ -26,7 +26,7 @@ const Home = () => {
             Hi, I Am <br /> Akash Singh
           </motion.h1>
 
-          <Typewriter
+          <Typewriter 
             options={{
               strings: ["A Developer", "A Problem Solver", "A Creator"],
               autoStart: true,

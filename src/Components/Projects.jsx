@@ -10,14 +10,19 @@ import { SiNetlify } from "react-icons/si";
 
 const Projects = () => {
   const boxProperty = {
-    w: "25%",
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    w: "300px",
+    h: "360px",
     padding: "4",
     bgColor: "#dfecf4",
     margin: "2rem",
     textAlign: "center",
     border: "2px solid black",
-    borderRadius: "10%",
-    height: "50vh",
+    borderRadius: "5%",
+    flexWrap: 'wrap',
     transition: "all 0.4s",
     css: {
       "&:hover": {
@@ -30,13 +35,14 @@ const Projects = () => {
   const imgPropety = {
     objectFit: "contain",
     boxSizing: "content-box",
-    w: "90%",
-    m: "8",
+    w: "270px",
+    h: '150px',
     borderRadius: "5%",
+    
   };
 
   return (
-    <Box id="projects" h={"150vh"} >
+    <Box id="projects" flexWrap={'wrap'}  >
       <h1>Projects</h1>
       <Box
         className="pBox"
@@ -45,7 +51,6 @@ const Projects = () => {
         alignItems={"center"}
         flexWrap={"wrap"}
         p={"4rem"}
-        h={"120vh"}
       >
         <Box {...boxProperty} className="projectBox">
           <Image src={img1} {...imgPropety} />
@@ -56,10 +61,10 @@ const Projects = () => {
             experiences.
           </Text>
           <Box
-            p={15}
             display={"flex"}
             justifyContent={"space-evenly"}
             alignItems={"center"}
+            gap={'20px'}
           >
             <a
               className="anchor"
@@ -86,10 +91,10 @@ const Projects = () => {
             creative journey and skills through immersive design.
           </Text>
           <Box
-            p={15}
             display={"flex"}
             justifyContent={"space-evenly"}
             alignItems={"center"}
+            gap={'20px'}
           >
             <a
               className="anchor"
@@ -113,9 +118,9 @@ const Projects = () => {
             dynamic React-based video player
           </Text>
           <Box
-            p={15}
             display={"flex"}
             justifyContent={"space-evenly"}
+            gap={'20px'}
             alignItems={"center"}
           >
             <a
@@ -144,9 +149,9 @@ const Projects = () => {
             e-commerce management
           </Text>
           <Box
-            p={15}
             display={"flex"}
             justifyContent={"space-evenly"}
+            gap={'20px'}
             alignItems={"center"}
           >
             <a
@@ -175,9 +180,9 @@ const Projects = () => {
             insights
           </Text>
           <Box
-            p={15}
             display={"flex"}
             justifyContent={"space-evenly"}
+            gap={'20px'}
             alignItems={"center"}
           >
             <a
@@ -198,18 +203,6 @@ const Projects = () => {
   );
 };
 
-// const TimelineItem = ({ heading, text, index }) => (
-//   <div
-//     className={`timelineItem ${
-//       index % 2 === 0 ? "leftTimeline" : "rightTimeline"
-//     }`}
-//   >
-//     <div>
-//       <h2>{heading}</h2>
 
-//       <p>{text}</p>
-//     </div>
-//   </div>
-// );
 
 export default Projects;
