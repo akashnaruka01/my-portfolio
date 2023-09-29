@@ -52,11 +52,11 @@ const Projects = () => {
         flexWrap={"wrap"}
         p={"4rem"}
       >
-        <a href="/" style={{ textDecoration: "none", color: "black" }}>
+        <a href="/" style={{ textDecoration: "none", color: "black" }}> 
           <Box {...boxProperty} className="projectBox">
             <Image src={img2} {...imgPropety} />
             <Heading padding={10}>My Portfolio</Heading>
-            <Text padding={10}></Text>
+            <Text padding={10}>A web design showcasing my skills and projects in a precious way and providing contact section for vistor to contact me. </Text>
             <Box
               display={"flex"}
               justifyContent={"space-evenly"}
@@ -85,9 +85,7 @@ const Projects = () => {
             <Image src={img5} {...imgPropety} />
             <Heading padding={10}>Rookie Crypto</Heading>
             <Text padding={10}>
-              Embark on a real-time crypto exploration with my website,
-              seamlessly integrating Coingecko API to provide up-to-date
-              cryptocurrency insights
+            Let's dive into a live crypto adventure on my website, where we deliver real-time cryptocurrency information.
             </Text>
             <Box
               display={"flex"}
@@ -117,7 +115,7 @@ const Projects = () => {
             <Image src={todo_sample} {...imgPropety} />
             <Heading padding={10}>To Do App</Heading>
             <Text padding={10}>
-            An web application that helps to organize, streamline daily tasks with checkmark of completion and option of deleting task.
+            An web application that helps to organize, streamline daily tasks with checkmark of completion and option of deleting tasks.
             </Text>
             <Box
               display={"flex"}
@@ -150,8 +148,7 @@ const Projects = () => {
             <Image src={img3} {...imgPropety} />
             <Heading padding={10}>Flick Player</Heading>
             <Text padding={10}>
-              Immerse yourself in a curated collection of ten videos through a
-              dynamic React-based video player
+              A react developed web application that has collection of some entertainment vedios and featuring dark mode and bright mode feature in it.
             </Text>
             <Box
               display={"flex"}
@@ -184,9 +181,7 @@ const Projects = () => {
             <Image src={img4} {...imgPropety} />
             <Heading padding={10}>Shopping Cart</Heading>
             <Text padding={10}>
-              Elevate your online shopping journey with a shopping cart project,
-              meticulously crafted using FastAPI and Redux Toolkit for
-              streamlined e-commerce management
+                Developed a shopping cart using redux-toolkit that enables the feature of adding product to cart and calculating the price of products in cart.
             </Text>
             <Box
               display={"flex"}
@@ -219,9 +214,7 @@ const Projects = () => {
             <Image src={img1} {...imgPropety} />
             <Heading padding={10}>Usability Hub</Heading>
             <Text padding={10}>
-              Crafted a front-end clone of Usability Hub, revolutionizing design
-              validation by harnessing real user insights for optimized user
-              experiences.
+              Crafted a responsive front-end clone of Usability Hub, to show case my frontend developing skills. Technology used - HTML, CSS.
             </Text>
             <Box
               display={"flex"}
