@@ -1,8 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { AiFillIeCircle } from "react-icons/ai";
-import { TbBrandCpp } from "react-icons/tb";
-import { Box, Image, chakra } from "@chakra-ui/react";
+import { Box, Image} from "@chakra-ui/react";
 import C from '../Assests/c.png';
 import Cpp from '../Assests/cpp.png';
 import Chakra from '../Assests/chakra.png';
@@ -11,26 +8,9 @@ import Html from '../Assests/html.png';
 import react from '../Assests/react.png';
 import Git from '../Assests/git.svg';
 import Css from '../Assests/css.png';
-// import  from '../Assests/js.png';
-import Js from '../Assests/js.png';
 
 const Skills = () => {
-  // const animations = {
-  //   whileInView: {
-  //     x: 0,
-  //     y: 0,
-  //     opacity: 1,
-  //   },
-  //   one: {
-  //     opacity: 0,
-  //     x: "-100%",
-  //   },
-  //   two: {
-  //     opacity: 0,
-  //     x: "+100%",
-  //   },
-  // };
-
+  
   const boxProperty = {
     w: '14%',
     display: 'flex',
@@ -94,7 +74,7 @@ const Skills = () => {
         
         <Box {...boxProperty}>
           <Image src={react} w={'50%'} boxSizing='content-box' objectFit={'contain'}/>
-          <h2>Chakra Ui</h2>
+          <h2>React Js</h2>
         </Box>
         
         <Box {...boxProperty}>
@@ -110,24 +90,7 @@ const Skills = () => {
         
       </Box>
 
-      {/* <section>
-        <motion.div
-          className="serviceBox1"
-          whileInView={animations.whileInView}
-          initial={animations.one}
-        >
-          <AiFillIeCircle />
-          <span>Web Development</span>
-        </motion.div>
-        <motion.div
-          className="serviceBox2"
-          whileInView={animations.whileInView}
-          initial={animations.two}
-        >
-          <TbBrandCpp />
-          <span>Competitive Programming</span>
-        </motion.div>
-      </section> */}
+     
     </div>
   );
 };

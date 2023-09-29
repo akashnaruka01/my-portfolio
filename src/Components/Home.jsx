@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
-import { animate, motion } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../Assests/me.png";
+import { BsArrowUpRight,} from "react-icons/bs";
+import myPic from "../Assests/me.png";
 
 const Home = () => {
   
@@ -18,8 +18,7 @@ const Home = () => {
   };
 
   return <>    
-    <div id="home">
-      
+    <div id="home">      
       <section>
         <div>
           <motion.h1 {...animations.h1}>
@@ -45,7 +44,7 @@ const Home = () => {
         </div>
       </section>
       <section >
-        <img src={me} alt="akash" />
+        <img src={myPic} alt="akash" />
       </section>
     </div>
   </>

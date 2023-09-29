@@ -61,9 +61,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-  #skills {
-    // height: 120vh;
-  }
   .skillsBox {
     width: 25% !important;
   }
@@ -136,10 +133,6 @@
     height: unset !important;
   }
 
-  #skills {
-    // height: 150vh;
-  }
-
   .sBox {
     padding: 4rem 0rem !important;
   }
@@ -204,26 +197,24 @@
 }
 
 @media screen and (max-width: 786px) {
- 
   .skillsBox {
     width: 23% !important;
   }
-  #contact{
-    >aside{
-      >img{
+  #contact {
+    > aside {
+      > img {
         width: 100%;
       }
     }
   }
-  #projects{
+  #projects {
     padding: 2rem 0rem;
   }
-  .pBox{
+  .pBox {
     padding: 4rem 0rem !important;
   }
   nav {
-    > div,
-    > a {
+     > div,> a {
       display: none;
     }
   }
@@ -435,13 +426,13 @@
   }
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 376px) {
   .projectBox {
     width: 80% !important;
   }
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 350px) {
   .projectBox {
     width: 100% !important;
   }

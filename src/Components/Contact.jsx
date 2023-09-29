@@ -26,7 +26,6 @@ const Contact = () => {
       setMessage('');
     } catch (error) {
       toast.error("Error Occurs");
-      console.log(error);
       setDisableBtn(false);
     }
   };
