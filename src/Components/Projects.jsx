@@ -132,7 +132,7 @@ const Projects = () => {
               </a>
               <a
                 className="anchor"
-                href="https://todo-1sfxuwem2-akashnaruka01-gmailcom.vercel.app  "
+                href="https://todo-app-pink-seven.vercel.app/login"
               >
                 <SiNetlify fontSize={"1.5rem"} />
                 Go to site
