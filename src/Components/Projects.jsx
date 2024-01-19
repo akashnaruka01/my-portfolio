@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Heading, Image, Link, Text } from "@chakra-ui/react";
+import img0 from "../Assests/movix.png";
 import img1 from "../Assests/usability-hub.png";
 import img2 from "../Assests/Portfolio.png";
 import img3 from "../Assests/vedio-player.png";
@@ -52,6 +53,31 @@ const Projects = () => {
         flexWrap={"wrap"}
         p={"4rem"}
       >
+      <a href="/" style={{ textDecoration: "none", color: "black" }}> 
+          <Box {...boxProperty} className="projectBox">
+            <Image src={img0} {...imgPropety} />
+            <Heading padding={10}>Movix Player</Heading>
+            <Text padding={10}>Developed a platform on which user can watch movies and tvshows and fetch details of the genres and actors. </Text>
+            <Box
+              display={"flex"}
+              justifyContent={"space-evenly"}
+              alignItems={"center"}
+              gap={"20px"}
+            >
+              <a
+                className="anchor"
+                href="https://github.com/akashnaruka01/MOVIX"
+              >
+                <AiFillGithub fontSize={"1.5rem"} color="black" />
+                Source Code
+              </a>
+              <a className="anchor" href="https://watch-wave.netlify.app/">
+                <SiNetlify fontSize={"1.5rem"} />
+                Go to site
+              </a>
+            </Box>
+          </Box>
+        </a>
         <a href="/" style={{ textDecoration: "none", color: "black" }}> 
           <Box {...boxProperty} className="projectBox">
             <Image src={img2} {...imgPropety} />
@@ -140,39 +166,7 @@ const Projects = () => {
             </Box>
           </Box>
         </a>
-        <a
-          href="https://vedioplayer-akashnaruka01.netlify.app/"
-          style={{ textDecoration: "none", color: "black" }}
-        >
-          <Box {...boxProperty} className="projectBox">
-            <Image src={img3} {...imgPropety} />
-            <Heading padding={10}>Flick Player</Heading>
-            <Text padding={10}>
-              A react developed web application that has collection of some entertainment vedios and featuring dark mode and bright mode feature in it.
-            </Text>
-            <Box
-              display={"flex"}
-              justifyContent={"space-evenly"}
-              gap={"20px"}
-              alignItems={"center"}
-            >
-              <a
-                className="anchor"
-                href="https://github.com/akashnaruka01/Vedio-Player"
-              >
-                <AiFillGithub fontSize={"1.5rem"} color="black" />
-                Source Code
-              </a>
-              <a
-                className="anchor"
-                href="https://vedioplayer-akashnaruka01.netlify.app/"
-              >
-                <SiNetlify fontSize={"1.5rem"} />
-                Go to site
-              </a>
-            </Box>
-          </Box>
-        </a>
+        
         <a
           href="https://vedioplayer-akashnaruka01.netlify.app/"
           style={{ textDecoration: "none", color: "black" }}
